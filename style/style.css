@@ -1,0 +1,66 @@
+@charset "utf-8";
+*:focus{
+	box-shadow: none !important;
+	outline: none
+}
+body{
+	background-color: #FCD0CF;
+	
+}
+input{
+	width: 100%;
+	padding: 12px 20px;
+	border:none;
+	margin-bottom: 20px;
+	border-radius: 50px;
+	background: white;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Francois One', sans-serif;
+}
+.click-btn{
+	background: #FCD0CF !important;
+	border:none !important;
+}
+.generate-btn{
+	border-radius: 50px;
+	padding: 8px 20px;
+	background-color: white;
+	font-weight: bold;
+}
+.submit-btn,.activate-btn{
+	background-color: black;
+	padding: 10px 20px;
+	color: white;
+}
+.login-submit-btn{
+	background-color: black;
+	padding: 10px 15px;
+	color: white;
+}
+.activate-btn,.login-submit-btn{
+	border-radius: 50px;
+}
+.password-box,.email-box{
+	position: relative;
+	width: 100% !important;
+	height: 50px;
+	border:none;
+	margin-bottom: 20px;
+}
+#password,#email,#login-password,#login-email{
+	position: absolute;
+	border:none;
+	width: 100% !important;
+	background:white;
+	border-radius: 50px;
+	padding: 12px 20px;
+}
+.show-icon,.email-loader,.login-show-icon{
+	position: absolute;
+	top: 30%;
+	right: 15px;
+	color: #ccc;
+	z-index: 1;
+	cursor: pointer;
+}
